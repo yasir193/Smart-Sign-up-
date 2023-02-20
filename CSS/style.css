@@ -1,0 +1,40 @@
+input{
+    color: yellow !important;
+    border: yellow solid 1px !important;
+}
+input:focus{
+    border-color: yellow !important;
+    box-shadow: none !important;
+}
+
+input::placeholder{
+    color: rgba(255, 255, 0, 0.432) !important;
+}
+.btnn{
+    transition: all ease 0.3s;
+    
+    color: yellow !important;
+    border: yellow 1px solid !important;
+}
+.btnn:hover{
+    background-color: yellow !important;
+    color: rgb(24, 23, 23) !important;
+    border: none;
+}
+h1{
+    color: yellow;
+}
+.style{
+    /* border: 1px solid yellow; */
+    box-shadow: 1px 1px 20px 0px yellow;
+}
+p{
+    color: yellow;
+}
+a{
+    color: yellow;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline
+}
